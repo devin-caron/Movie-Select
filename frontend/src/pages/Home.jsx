@@ -5,7 +5,9 @@ function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const movies = {};
-  const handleSearch = () => {};
+  const handleSearch = () => {
+    e.preventDefault();
+  };
 
   return (
     <div className="home">
